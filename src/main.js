@@ -7,10 +7,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-import { faEnvelope, faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faFacebook,faLinkedin,faInstagram,faGithub,faTwitter, faMoon, faSun, faEnvelope)
+library.add(faFacebook,faInstagram,faGithub )
 
 
 createApp(App)
